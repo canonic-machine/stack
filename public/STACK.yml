@@ -1,0 +1,31 @@
+# STACK public membership
+# Open-source repositories in the CANONIC paper-writing stack
+
+membership:
+  - name: canonic
+    url: https://github.com/canonic-machine/canonic
+    role: governance axioms
+
+  - name: machine
+    url: https://github.com/canonic-machine/machine
+    role: execution semantics
+
+  - name: os
+    url: https://github.com/canonic-machine/os
+    role: operational scope
+
+  - name: ledger
+    url: https://github.com/canonic-machine/ledger
+    role: authoritative record
+
+  - name: writing
+    url: https://github.com/canonic-machine/writing
+    role: episode content
+
+  - name: paper
+    url: https://github.com/canonic-machine/paper
+    role: publication artifacts
+
+  - name: stack
+    url: https://github.com/canonic-machine/stack
+    role: composition layer

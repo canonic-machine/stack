@@ -10,6 +10,16 @@ STACK aggregates multiple LEDGER instances into a unified, ordered multi-ledger 
 
 ---
 
+## Membership
+
+Public membership is open; see `public/STACK.yml` for the tracked repositories.
+
+A private overlay may include closed repositories. STACK is observational: it records membership but does not govern member behavior.
+
+Enforcement is a private role; its outcomes appear in the ledger.
+
+---
+
 ## Triad
 
 - `CANON.md` — governance axioms
