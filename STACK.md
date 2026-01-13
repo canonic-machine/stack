@@ -92,6 +92,7 @@ A STACK scope is valid if and only if:
 - STACK output is read-only and informational.
 - STACK may be used to reconstruct cross-machine timelines.
 - STACK output may inform analysis but has no canonical force.
+- Compliance reports may include repository-root `LICENSE` and `NOTICE` checks per `/canonic/CANON.md`.
 
 ---
 

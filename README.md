@@ -18,6 +18,8 @@ A private overlay may include closed repositories. STACK is observational: it re
 
 Enforcement is a private role; its outcomes appear in the ledger.
 
+Member repository roots are expected to include `LICENSE` and `NOTICE` per `/canonic/CANON.md`. STACK may report compliance but does not enforce it.
+
 ---
 
 ## Triad
