@@ -4,28 +4,42 @@
 membership:
   - name: canonic
     url: https://github.com/canonic-machine/canonic
+    description: Root governance axioms for the CANONIC paradigm
     role: governance axioms
+    visibility: public
 
   - name: machine
     url: https://github.com/canonic-machine/machine
+    description: Execution semantics for CANONIC governance
     role: execution semantics
+    visibility: public
 
   - name: os
     url: https://github.com/canonic-machine/os
+    description: Operational scope and authority bounds for CANONIC systems
     role: operational scope
+    visibility: public
 
   - name: ledger
     url: https://github.com/canonic-machine/ledger
+    description: Immutable record layer for CANONIC state transitions
     role: authoritative record
+    visibility: public
 
   - name: writing
     url: https://github.com/canonic-machine/writing
+    description: Episode production under CANONIC governance
     role: episode content
+    visibility: public
 
   - name: paper
     url: https://github.com/canonic-machine/paper
+    description: Publication artifacts and manuscript governance
     role: publication artifacts
+    visibility: public
 
   - name: stack
     url: https://github.com/canonic-machine/stack
+    description: Composition layer for multiple CANONIC machines
     role: composition layer
+    visibility: public
