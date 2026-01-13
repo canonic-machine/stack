@@ -38,6 +38,18 @@ membership:
     role: publication artifacts
     visibility: public
 
+  - name: publishing
+    url: https://github.com/canonic-machine/publishing
+    description: Dissemination and submission artifacts (e.g., arXiv)
+    role: publication release
+    visibility: public
+
+  - name: agents
+    url: https://github.com/canonic-machine/agents
+    description: Subordinate AI agents operating under human instruction and CANONIC governance
+    role: subordinate execution
+    visibility: public
+
   - name: stack
     url: https://github.com/canonic-machine/stack
     description: Composition layer for multiple CANONIC machines
