@@ -48,6 +48,16 @@ Cross-machine interaction **MUST** occur only through recorded LEDGER signals.
 
 ---
 
+### 6. Logical inheritance
+
+Inheritance paths declared in CANON files are logical, not physical.
+
+- Paths like `/canonic/machine/os/` reference the stack hierarchy across repositories.
+- Each repository declares its position in the logical hierarchy.
+- The organization boundary defines the stack boundary.
+
+---
+
 **This CANON defines validity for the STACK scope.**
 
 ---

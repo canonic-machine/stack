@@ -28,6 +28,12 @@ The governance artifact of a scope.
 
 ---
 
+### CANONIC
+
+The constitutional governance paradigm that defines the minimal structural and semantic rules all scopes must satisfy.
+
+---
+
 ### composition
 
 The combination of multiple machines into a single ordered system.
@@ -91,5 +97,17 @@ A recorded LEDGER event enabling cross-machine interaction.
 ### STACK
 
 The composition layer for multiple CANONIC machines.
+
+---
+
+### logical inheritance
+
+Cross-repository inheritance where inheritance paths reference the logical stack hierarchy rather than physical file paths. Each repository declares its position in the governance hierarchy via inheritance paths like `/canonic/machine/os/` even though these paths exist across separate repositories unified by the STACK.
+
+---
+
+### multi-repository stack
+
+A STACK composed of separate git repositories unified under a single organization, where the organization boundary defines the stack boundary.
 
 ---
