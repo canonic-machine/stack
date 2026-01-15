@@ -123,3 +123,15 @@ The access control level for a repository in the STACK. Three layers exist in or
 Local is the strongest privacy level. A repository marked `local: true` MUST NOT have a remote configured.
 
 ---
+
+### referential navigation
+
+The pattern of embedding cross-repository markdown links in README files to enable seamless navigation across a multi-repository stack. Each README contains a navigation table linking to all public members, with the current repository bolded. Links to governance artifacts (CANON.md, VOCAB.md) are also required.
+
+---
+
+### stack navigation table
+
+A markdown table in each repository README that lists all public stack members with hyperlinks, enabling click-through navigation between repositories. The current repository is bolded without a link.
+
+---

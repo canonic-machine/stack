@@ -74,6 +74,19 @@ Pushing a local repository to any remote is a governance violation.
 
 ---
 
+### 8. Referential navigation
+
+Each repository README **MUST** contain a stack navigation table.
+
+The navigation table **MUST**:
+- List all public stack members with markdown links
+- Bold the current repository (no link)
+- Link to governance artifacts (`CANON.md`, `VOCAB.md`) within the triad section
+
+Cross-repo links enable seamless navigation across the multi-repository stack.
+
+---
+
 **This CANON defines validity for the STACK scope.**
 
 ---
