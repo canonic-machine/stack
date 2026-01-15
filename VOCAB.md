@@ -24,18 +24,6 @@ The separation between machines in a STACK.
 
 ---
 
-### CANON
-
-The governance artifact of a scope.
-
----
-
-### CANONIC
-
-The constitutional governance paradigm that defines the minimal structural and semantic rules all scopes must satisfy.
-
----
-
 ### composition
 
 The combination of multiple machines into a single ordered system.
@@ -81,12 +69,6 @@ An independent CANONIC system with its own governance.
 ### ordering
 
 The deterministic sequence of machines and their ledgers.
-
----
-
-### scope
-
-A directory governed by a triad.
 
 ---
 
