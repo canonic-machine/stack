@@ -111,3 +111,15 @@ Cross-repository inheritance where inheritance paths reference the logical stack
 A STACK composed of separate git repositories unified under a single organization, where the organization boundary defines the stack boundary.
 
 ---
+
+### visibility
+
+The access control level for a repository in the STACK. Three layers exist in order of increasing restriction:
+
+1. **public** — Open to all; published on GitHub with public visibility.
+2. **private** — Restricted to organization members; published on GitHub with private visibility.
+3. **local** — Never published; exists only on local machines with no remote.
+
+Local is the strongest privacy level. A repository marked `local: true` MUST NOT have a remote configured.
+
+---

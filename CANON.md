@@ -58,6 +58,22 @@ Inheritance paths declared in CANON files are logical, not physical.
 
 ---
 
+### 7. Visibility enforcement
+
+STACK membership **MUST** declare visibility for each repository.
+
+Three visibility levels exist in order of increasing restriction:
+
+1. **public** — Published with public visibility.
+2. **private** — Published with private visibility.
+3. **local** — Never published; no remote permitted.
+
+Repositories marked `local: true` **MUST NOT** have a git remote configured.
+
+Pushing a local repository to any remote is a governance violation.
+
+---
+
 **This CANON defines validity for the STACK scope.**
 
 ---
