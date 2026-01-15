@@ -1,5 +1,7 @@
 # VOCAB (/canonic/stack/)
 
+inherits: /
+
 ---
 
 ## Content Concepts
