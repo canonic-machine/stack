@@ -87,6 +87,21 @@ Cross-repo links enable seamless navigation across the multi-repository stack.
 
 ---
 
+### 9. Repository isolation
+
+Each stack member **MUST** be an independent git repository.
+
+Parent directories containing multiple stack members **MUST NOT** have git version control tracking.
+
+This prevents:
+- Accidental cross-repo commits
+- Submodule coupling
+- Workspace corruption from parent-level git operations
+
+The `.github` organization repository **MUST** have its own `.git` directory.
+
+---
+
 **This CANON defines validity for the STACK scope.**
 
 ---
