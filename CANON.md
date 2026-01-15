@@ -102,6 +102,18 @@ The `.github` organization repository **MUST** have its own `.git` directory.
 
 ---
 
+---
+
+## Lifecycle
+
+**Origin:** Created when multi-repository structure required explicit composition governance.
+
+**Current state:** AI-assisted. Stack navigation and isolation verified by agents under human direction.
+
+**Automation drift:** Moving toward AI-automated stack validation. Agents will verify isolation and navigation compliance; humans retain authority over membership changes.
+
+---
+
 **This CANON defines validity for the STACK scope.**
 
 ---
