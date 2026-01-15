@@ -135,3 +135,9 @@ The pattern of embedding cross-repository markdown links in README files to enab
 A markdown table in each repository README that lists all public stack members with hyperlinks, enabling click-through navigation between repositories. The current repository is bolded without a link.
 
 ---
+
+### repository isolation
+
+The requirement that each stack member be an independent git repository with its own `.git` directory, and that parent directories containing multiple stack members not have git tracking. Prevents accidental cross-repo commits, submodule coupling, and workspace corruption.
+
+---
