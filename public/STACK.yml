@@ -55,3 +55,9 @@ membership:
     description: Composition layer for multiple CANONIC machines
     role: composition layer
     visibility: public
+
+  - name: .github
+    url: https://github.com/canonic-machine/.github
+    description: Organization profile and entry point
+    role: organization profile
+    visibility: public
