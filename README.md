@@ -32,6 +32,10 @@ Member repository roots are expected to include `LICENSE` and `NOTICE` per [`/ca
 
 ---
 
+## Canonbase
+
+The **canonbase** is the full inheritance graph of all scopes governed by CANONIC, spanning all repositories in a workspace.
+
 ## Stack Navigation
 
 | Layer | Repository | Purpose |
