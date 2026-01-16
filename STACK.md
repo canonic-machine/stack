@@ -1,101 +1,81 @@
+# STACK SPEC
 
-
-# STACK
-
-inherits: /canonic/machine/os/
+**Status:** CANONICAL
+**Closed:** 2026-01-16
 
 ---
 
-## Purpose
+## 1. Purpose
 
 Define STACK as the observational composition layer for multiple CANONIC machines.
 
-STACK provides a unified, read-only view across independent machines by observing their published artifacts and ledgers.
-
-STACK does not govern, enforce, execute, or interpret.
+STACK provides a unified, read-only view across independent machines. STACK does not govern, enforce, or execute.
 
 ---
 
-## Scope
+## 2. Governance Path
 
-- Applies to `/canonic/machine/os/stack/`.
-- Inherits constraints from the OS scope.
-- Operates exclusively through observation of existing machines.
+```
+/canonic/ (ROOT)
+├── inherits: / (self-terminating)
+│
+└──► /canonic/stack/ (THIS SCOPE)
+     └── inherits: /canonic/
+```
+
+| Field | Value |
+|-------|-------|
+| Path | `/canonic/stack/` |
+| Inherits | `/canonic/` |
+| Closes | CANON.md (9 axioms) |
 
 ---
 
-## Normative language
+## 3. Normative language
 
 The key words **MUST**, **MUST NOT**, **SHOULD**, **SHOULD NOT**, and **MAY** are to be interpreted as described in RFC 2119.
 
-Statements using these key words are normative. All other text is descriptive.
-
 ---
 
-## Principles
+## 4. Principles
 
 ### 4.1 Observational role
 
-STACK is observational only.
-
-STACK does not introduce authority, behavior, or policy.
-
----
+STACK is observational only. STACK does not introduce authority, behavior, or policy.
 
 ### 4.2 Ledger-first coordination
 
-STACK coordinates machines solely through their published LEDGER history.
+STACK coordinates machines solely through their published LEDGER history. No direct state sharing between machines is permitted.
 
-No direct state sharing or implicit coupling between machines is permitted.
+### 4.3 Deterministic observability
 
----
-
-### 4.3 Structural normalization
-
-STACK MAY project published machine artifacts into a common representation for observation.
-
-Such normalization is structural only and MUST NOT alter meaning, add semantics, or introduce interpretation.
+STACK defines a deterministic ordering across observed ledger events for reproducibility.
 
 ---
 
-### 4.4 Deterministic observability
+## 5. Constraints
 
-STACK MUST define a deterministic ordering across observed ledger events.
-
-Ordering exists to support reproducibility and replay, not interpretation.
-
----
-
-## Constraints
-
-- STACK **MUST** reference machines only through their published CANON and LEDGER artifacts.
-- STACK **MAY** materialize a normalized descriptor view derived from those published artifacts.
-- STACK **MUST** define the domain of events it orders (e.g., commits, tags, episodes).
-- STACK **MUST NOT** modify, annotate, or reinterpret ledger history.
-- STACK **MUST NOT** introduce governance, enforcement, or execution behavior.
+STACK does not govern:
+- Constitutional axioms (governed by root)
+- Enforcement mechanics (governed by MACHINE)
+- Execution boundaries (governed by OS)
+- Machine-internal state (governed by each machine)
 
 ---
 
-## Validation
+## 6. Validation
 
-A STACK scope is valid if and only if:
+```
+VALIDITY = triad(scope) ∧ inheritance(scope) ∧ introspection(scope)
+```
 
-- it observes machines exclusively via published artifacts,
-- ordering is deterministic and reproducible,
-- normalization is structural only, and
-- no authority or interpretation is introduced.
-
----
-
-## Consumption notes
-
-- STACK output is read-only and informational.
-- STACK may be used to reconstruct cross-machine timelines.
-- STACK output may inform analysis but has no canonical force.
-- Compliance reports may include repository-root `LICENSE` and `NOTICE` checks per `/canonic/CANON.md`.
+STACK validity requires:
+- CANON.md, VOCAB.md, README.md present
+- Inherits from /canonic/
+- All CANON terms defined in VOCAB
 
 ---
 
-**This file defines the STACK law.**
+**This SPEC closes CANON. Governance is defined exclusively by CANON.**
 
 ---
