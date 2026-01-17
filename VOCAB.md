@@ -54,18 +54,6 @@ The property that persisted history cannot be altered.
 
 ---
 
-### LEDGER
-
-The authoritative record of state transitions.
-
----
-
-### machine
-
-An independent CANONIC system with its own governance.
-
----
-
 ### ordering
 
 The deterministic sequence of machines and their ledgers.
@@ -75,12 +63,6 @@ The deterministic sequence of machines and their ledgers.
 ### signal
 
 A recorded LEDGER event enabling cross-machine interaction.
-
----
-
-### STACK
-
-The composition layer for multiple CANONIC machines.
 
 ---
 
