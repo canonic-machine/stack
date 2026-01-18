@@ -1,0 +1,113 @@
+# STACK membership manifest
+# Authoritative source of truth for all stack members and visibility
+# Per STACK CANON Axiom 7: Visibility enforcement
+
+membership:
+  # === GOVERNANCE LAYER ===
+  - name: canonic
+    url: https://github.com/canonic-machine/canonic
+    description: Root governance axioms for the CANONIC paradigm
+    role: governance axioms
+    visibility: public
+
+  # === MACHINE LAYER ===
+  - name: machine
+    url: https://github.com/canonic-machine/machine
+    description: Execution semantics for CANONIC governance
+    role: execution semantics
+    visibility: public
+
+  # === OPERATIONAL LAYER ===
+  - name: os
+    url: https://github.com/canonic-machine/os
+    description: Operational scope and authority bounds for CANONIC systems
+    role: operational scope
+    visibility: public
+
+  - name: ledger
+    url: https://github.com/canonic-machine/ledger
+    description: Immutable record layer for CANONIC state transitions
+    role: authoritative record
+    visibility: public
+
+  - name: validators
+    url: https://github.com/canonic-machine/validators
+    description: Enforcement implementations for CANONIC axioms
+    role: axiom enforcement
+    visibility: public
+
+  # === COMPOSITION LAYER ===
+  - name: stack
+    url: https://github.com/canonic-machine/stack
+    description: Composition layer for multiple CANONIC machines
+    role: composition layer
+    visibility: public
+
+  - name: .github
+    url: https://github.com/canonic-machine/.github
+    description: Organization profile and entry point
+    role: organization profile
+    visibility: public
+
+  # === PRODUCTION LAYER ===
+  - name: writing
+    url: https://github.com/canonic-machine/writing
+    description: Episode production under CANONIC governance
+    role: episode content
+    visibility: public
+
+  - name: paper
+    url: https://github.com/canonic-machine/paper
+    description: Publication artifacts and manuscript governance
+    role: publication artifacts
+    visibility: public
+
+  - name: publishing
+    url: https://github.com/canonic-machine/publishing
+    description: Dissemination and submission artifacts (e.g., arXiv)
+    role: publication release
+    visibility: public
+
+  - name: transcript
+    description: Raw human-AI interaction evidence from multiple channels
+    role: transcript evidence
+    visibility: permanent-local
+    immutable: true
+    reason: Commercially proprietary, legally privileged, personally identifiable (TRANSCRIPT CANON Axiom 7)
+
+  # === DOMAIN LAYER ===
+  - name: patents
+    description: Intellectual property disclosures and applications
+    role: IP protection
+    visibility: permanent-local
+    immutable: true
+    reason: Legally privileged, pre-publication IP, competitively sensitive (PATENTS CANON Axiom 8)
+
+  - name: grants
+    description: Grant applications and funding proposals
+    role: funding applications
+    visibility: local
+    reason: Pre-submission grant materials require confidentiality
+
+  - name: companies
+    url: https://github.com/canonic-machine/companies
+    description: Business domain governance
+    role: commercial entities
+    visibility: private
+
+  - name: atulisms
+    url: https://github.com/canonic-machine/atulisms
+    description: Book domain - Atulisms
+    role: book production
+    visibility: private
+
+  - name: dividends
+    url: https://github.com/canonic-machine/dividends
+    description: Book domain - Dividends
+    role: book production
+    visibility: private
+
+  - name: mammochat_paper
+    description: MammoChat manuscript
+    role: paper production
+    visibility: private
