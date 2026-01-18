@@ -114,6 +114,15 @@ The `.github` organization repository **MUST** have its own `.git` directory.
 
 ---
 
+## References
+
+- IDF-001: Constitutional Governance Paradigm (root axiom inheritance)
+- IDF-142: Stack-Wide Closure Proof (all axioms)
+- IDF-143: IDF Closure Theorem (Axiom 6: Logical inheritance)
+- IDF-145: Infrastructure Layer Closure (stack as infrastructure)
+
+---
+
 **This CANON defines validity for the STACK scope.**
 
 ---
